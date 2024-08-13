@@ -29,6 +29,6 @@ public class ButtonsClick {
 
 
         String expectedMessage = "You have done a dynamic click";
-        assertEquals(expectedMessage, buttonsPage.getClickMessageText());
+        Assert.assertEquals(expectedMessage, buttonsPage.getClickMessageText());
     }
 }
